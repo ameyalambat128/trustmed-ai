@@ -1,17 +1,53 @@
-*.txt
-dataset
-dataset_paper
-dataset_test
-test*
-.dockerignore
-app.sh
-
-### Python template
 # Byte-compiled / optimized / DLL files
-__pycache__
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Virtual environments
+.venv/
+venv/
+env/
 
-# ignore special files or folds
+# Environment files
+.env
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+.pytest_cache/
+.cache/
+cover/
+coverage.xml
+.coverage*
+*.cover
+*.py,cover
+
+# Type checker caches
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Data / logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# macOS
 .DS_Store
